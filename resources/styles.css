@@ -1,8 +1,8 @@
 body {
-  background-color: whitesmoke;
+  background-color: white;
 }
 h1 {
-  color: lightsteelblue;
+  color: black;
     font-family: sans-serif;
     font-size: 300%;
 }
@@ -10,7 +10,7 @@ p {
   color: black;
     font-family: serif;
     font-size: 100%;
-    border: 1px solid Lightsteelblue;
+    border: 1px solid rgb(158, 115, 251);
     padding: 30px;
     margin: 50px;
 }
