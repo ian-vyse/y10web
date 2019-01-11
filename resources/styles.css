@@ -1,22 +1,65 @@
 body {
-  background-color: white;
+  background-color: whitesmoke;
+    background-image: url(background_alt.jpeg)
 }
 h1,h2 {
-  color: black;
+  color: cornflowerblue;
     font-family: sans-serif;
-    padding: 30px;
-    margin: 50px;
+    padding: 20px;
+    margin: 30px;
 }
 p {
   color: black;
     font-family: serif;
-    border: 1px solid rgb(158, 115, 251);
+    border: 2px solid Cornflowerblue;
     padding: 30px;
     margin: 50px;
+    background-color: whitesmoke
+}
+ol {
+  color: black;
+    font-family: serif;
+    border: 2px solid Cornflowerblue;
+    padding: 30px;
+    margin: 50px;
+    background-color: whitesmoke
+}
+ul {
+  color: black;
+    font-family: serif;
+    border: 2px solid Cornflowerblue;
+    padding: 30px;
+    margin: 50px;
+    background-color: whitesmoke
 }
 #p01 {
-  color: blue;
+  color:;
 }
 p.error {
-  color: black;
+  color:;
+
 }
+ a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+/*
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+*/
