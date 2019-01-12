@@ -1,36 +1,62 @@
 body {
-  background-color: whitesmoke;
     background-image: url(background_alt_3.jpg)
 }
-h1,h2 {
-  color: cornflowerblue;
+h1 {
+    color: cornflowerblue;
+    font-size: 300%;
     font-family: sans-serif;
+    text-align: center;
+}
+h2 {
+    color: cornflowerblue;
+    border:2px solid cornflowerblue;
+    background-color: whitesmoke;
     padding: 20px;
-    margin: 30px;
+    margin: 50px;
+    font-size: 200%;
+    font-family: sans-serif;
+        
 }
-p {
-  color: black;
+p, ol, ul, table, th, td {
+    color: black;
     font-family: serif;
     border: 2px solid Cornflowerblue;
     padding: 30px;
     margin: 50px;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    font-size: 150%;
+    font-family: serif;
+    border-collapse: collapse;
 }
-ol {
-  color: black;
+/*ol {
+    color: black;
     font-family: serif;
     border: 2px solid Cornflowerblue;
     padding: 30px;
     margin: 50px;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    font-size: 150%;
+    font-family: serif;
 }
 ul {
-  color: black;
+    color: black;
     font-family: serif;
     border: 2px solid Cornflowerblue;
     padding: 30px;
     margin: 50px;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    font-size: 150%;
+    font-family: serif;
+}
+table,th,td {
+    color: black;
+    font-family: serif;
+    border: 2px solid Cornflowerblue;
+    padding: 30px;
+    margin: 50px;
+    background-color: whitesmoke;
+    font-size: 150%;
+    font-family: serif;
 }
 #p01 {
   color:;
@@ -39,12 +65,12 @@ p.error {
   color:;
 
 }
- a:link {
+a:link {
   color: green; 
   background-color: transparent; 
   text-decoration: none;
 }
-/*
+
 a:visited {
   color: pink;
   background-color: transparent;
