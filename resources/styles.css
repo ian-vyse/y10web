@@ -28,6 +28,13 @@ p, ol, ul, table, th, td {
     font-family: serif;
     border-collapse: collapse;
 }
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
 /*ol {
     color: black;
     font-family: serif;
