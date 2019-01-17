@@ -35,6 +35,10 @@ article {
   background-color: #f1f1f1;
   height: 300px; /* only for demonstration, should be removed */
 }
+table {
+  border-collapse: collapse;
+  width: 93%;
+}
 /*ol {
     color: black;
     font-family: serif;
