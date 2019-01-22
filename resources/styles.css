@@ -39,6 +39,21 @@ table {
   border-collapse: collapse;
   width: 93%;
 }
+button {
+    color:cornflowerblue;
+    padding: 7px;
+}
+#news {
+    color:red;
+    padding: 7px;
+}
+#printme {
+    background-color: whitesmoke;
+    border: solid 2px cornflowerblue;
+    padding: 7px;
+    text-align: center;
+    height: 100;
+}
 /*ol {
     color: black;
     font-family: serif;

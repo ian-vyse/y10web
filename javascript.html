@@ -6,36 +6,17 @@
         <link rel="icon" href="resources/oof.png">
         <meta name="description" content="A Brief History of Los Tres Amigos">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="resources/script.js"></script>
     </head>
     <body>
         <h1>Javascript</h1>
         <hr>        
-        <style>
-            button {
-                color:cornflowerblue;
-                padding: 7px;
-            }
-            #news {
-                color:red;
-                padding: 7px;
-            }
-            #printme {
-                background-color: white;
-                border: solid 2px cornflowerblue;
-                padding: 7px;
-                text-align: center;
-                height: 100;
-            }
-        </style>
+        <p>
+            What's 9 + 10?
+        </p>
         <div id="printme">
-            <button onclick="myfunction()">Click me</button>
+            <button onclick="myfunction()">Show</button>
         </div>
-        <script>
-            function myfunction(){
-                var mydiv = document.getElementById("printme"); /*var is optional*/
-                mydiv.innerHTML = "Kachow";
-            }
-        </script>
         <button id="news" onclick="window.open('http://www.cbc.ca')">Get news - How long can buttons be?</button>
         <hr>
         <button onclick="document.getElementById('myImage').src='resources/Tim_Berners-Lee.jpg'">Berners-Lee</button>
