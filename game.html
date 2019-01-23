@@ -11,7 +11,7 @@
 
 <!-- This div is the canvas -->
 <div>
-<canvas id="canvas" width="300" height="200" style="">
+<canvas id="canvas" width="1424" height="712" style="">
 This text is displayed if your browser does not support HTML5 Canvas.
 </canvas>
 </div>
@@ -27,17 +27,23 @@ This text is displayed if your browser does not support HTML5 Canvas.
 // Set some global variables
 var canvas;
 var ctx;
-var dx = 5;
-var dy = 5;
+var dx = 15;
+var dy = 15;
 var x = 150;
 var y = 100;
-var WIDTH = 300;
-var HEIGHT = 200;
+var WIDTH = 1424;
+var HEIGHT = 712;
 
 function circle(x,y,r) {
 	ctx.beginPath();
 	ctx.arc(x, y, r, 0, Math.PI*2, true);
 	ctx.fill();
+}
+
+function enemy(x, y, r){
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, Math.PI*2, true);
+    ctx.fill();
 }
 
 function rect(x,y,w,h) {
@@ -89,8 +95,12 @@ function draw() {
 	ctx.fillStyle = "white";
 	ctx.strokeStyle = "black";
 	rect(0,0,WIDTH,HEIGHT);
-	ctx.fillStyle = "purple";
-	circle(x, y, 10);
+	ctx.fillStyle = "cornflowerblue";
+	circle(x, y, 20);
+    ctx.fillStyle = "red";
+    for (i=0; i<10; i ++){
+           enemy(Math.random()*1000, Math.random()*1000, 10);
+    }
 }
 
 // Main part of program
