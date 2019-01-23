@@ -1,6 +1,6 @@
 <html><head>
 <meta charset="utf-8">
-<title>Homepage</title>
+<title>Game</title>
 <link rel="stylesheet" href="resources/styles.css">
 <link rel="icon" href="resources/oof.png">
 <meta name="description" content="I don't know what I'm doing.">
@@ -11,7 +11,7 @@
 
 <!-- This div is the canvas -->
 <div>
-<canvas id="canvas" width="300" height="200">
+<canvas id="canvas" width="300" height="200" style="">
 This text is displayed if your browser does not support HTML5 Canvas.
 </canvas>
 </div>
@@ -61,22 +61,22 @@ function init() {
 
 function doKeyDown(evt){
 	switch (evt.keyCode) {
-		case 38:  /* Up arrow was pressed */
+		case 87:  /* "W" key was pressed */
 			if (y - dy > 0){
 				y -= dy;
 			}
 			break;
-		case 40:  /* Down arrow was pressed */
+		case 83:  /* "S" key was pressed */
 			if (y + dy < HEIGHT){
 				y += dy;
 			}
 			break;
-		case 37:  /* Left arrow was pressed */
+		case 65:  /* "A" key was pressed */
 			if (x - dx > 0){
 				x -= dx;
 			}
 			break;
-		case 39:  /* Right arrow was pressed */
+		case 68:  /* "D" key was pressed */
 			if (x + dx < WIDTH){
 				x += dx;
 			}
